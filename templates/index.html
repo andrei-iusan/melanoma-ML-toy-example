@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Melanoma Demo</title>
+</head>
+<body>
+
+    <h1>Melanoma Machine Learning demo</h1>
+    {{ a_variable }}
+
+    {# a comment #}
+    <ul id="navigation">
+    {% for item in algorithms %}
+        <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
